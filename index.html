@@ -4,13 +4,13 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>YOUR NAME HERE</title>
+		<title>Dartup 2017</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/white.css">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="lib/css/color-brewer.css">
 
 		<link rel="stylesheet" href="css/custom.css">
 
@@ -26,7 +26,42 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>SLIDES HERE</section>
+				<section data-background="img/title.png"></section>
+				<section>
+					<section data-transition="none" data-background-transition="none">
+						<img src="img/wrike_logo.png" class="center-logo"><br>
+						<img src="img/heart.png" class="heart"><br>
+						<img src="img/dart_logo.svg" class="center-logo">
+					</section>
+					<section data-transition="none" data-background-transition="none">
+						<img src="img/wrike_logo.png" class="center-logo"><br>
+						<img src="img/heart.png" class="heart"><img src="img/heart.png" class="heart"><br>
+						<img src="img/dart_logo.svg" class="center-logo">
+					</section>
+				</section>
+				<section data-background="img/coy.png"></section>
+				<section>
+					<pre><code class="hljs dart" style="font-size: 55px">print('Hello ${world}');</code></pre>
+				</section>
+				<section class="stretch">
+					<h3>Menu</h3>
+					<div style="text-align: left; font-size: 0.9em">
+						<span class="fragment"><span class="name">Michael Thomsen, Google</span> — <span class="title">Dart and beyond: Flutter</span></span><br>
+						<span class="fragment"><span class="name">Dart Team, Google</span>  — <span class="title">Q/A section about Dart language</span></span><br>
+						<span class="fragment rus"><span class="name">Алексей Золотых, Wrike</span> — <span class="title">История самурая. Путь, который проходит Dart-код от IDE до браузера</span></span><br>
+						<span class="fragment rus"><span class="name">Максим Гребенщиков, Wrike</span> — <span class="title">Dart puzzllers. Что должен знать дартизан?</span></span><br>
+						<span class="fragment rus"><span class="name">Александр Полянкин, Wrike</span> - <span class="title">Strong Mode и система типов Dart</span></span>
+					</div>
+				</section>
+				<section>
+					<img src="img/pizza.png">
+				</section>
+				<section>
+					<img src="img/stout.png" class="bier">
+					<img src="img/witbier.png" class="bier"><br>
+					<img src="img/wheat_apa.png" class="bier">
+					<img src="img/winter_warmer.png" class="bier">
+				</section>
 			</div>
 		</div>
 
@@ -43,7 +78,7 @@
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
 		</script>
